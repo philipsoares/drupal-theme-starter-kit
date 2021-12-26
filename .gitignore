@@ -1,3 +1,4 @@
+dist/
 css/*.css
 css/sourcemaps/*.css.map
 *.css.map

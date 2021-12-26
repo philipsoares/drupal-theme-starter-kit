@@ -1,27 +1,16 @@
 name: My theme
 type: theme
-description: My theme description
+description: "My theme description."
 package: Other
 core_version_requirement: ^8 || ^9
 base theme: classy
 hidden: false
 
 libraries:
-  - my_theme/global
+  - my_theme/global-styling
 
 regions:
   header: "Header"
-  menu_desktop: "Menu on desktop"
-  menu_mobile: "Menu on mobile"
   precontent: "Precontent"
   content: "Content"
-  footer_left: "Footer Left"
-  footer_right: "Footer Right"
-  footer_bottom: "Footer Bottom"
-  hidden: "Hidden"
-
-libraries-override:
-  # Remove IE 9 compatibility shiv
-  core/classList: false
-  # Remove IE 8 compatibility shiv
-  core/html5shiv: false
+  footer: "Footer"

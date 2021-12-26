@@ -1,0 +1,10 @@
+// main entry point and importer
+// the order of @import's here is important.
+@charset 'utf-8';
+
+// overall site variables and settings.
+
+@import "core/index.scss";
+@import "commons/**/*.scss";
+@import "components/**/*.scss";
+@import "layout/**/*.scss";

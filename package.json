@@ -1,0 +1,19 @@
+{
+  "name": "drupal-starter-kit-theme",
+  "version": "1.0.0",
+  "description": "Starter Kit Theme for Drupal using Laravel-Mix",
+  "scripts": {
+    "theme-watch": "npx mix watch",
+    "theme-build": "npx mix"
+  },
+  "keywords": [],
+  "author": "Philip Soares",
+  "license": "ISC",
+  "devDependencies": {
+    "laravel-mix": "^6.0.39",
+    "node-sass-glob-importer": "^5.3.2",
+    "resolve-url-loader": "^4.0.0",
+    "sass": "^1.45.1",
+    "sass-loader": "^12.4.0"
+  }
+}
